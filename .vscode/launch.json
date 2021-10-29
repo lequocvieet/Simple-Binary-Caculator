@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "Launch my cool app",
+            "url": "http://localhost:8000"
+        },
+        {
+            "type": "chrome",
+            "name": "debug client-site",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch for nodejs",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "${workspaceFolder}/js/binaryCaculator.js"
+          },
+          {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch index.html",
+            "file": "${workspaceFolder}/index.html"
+          },
+          {
+            "name": "Chrome extension",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+  }

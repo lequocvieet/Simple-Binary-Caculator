@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url("/images/bg.jpg");
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+header >h1{
+    color: #a3b0c1;
+    text-align: center;
+    font-family: "Roboto Mono";
+}
+
+.element{
+    
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 50px;
+    font-family: "Roboto Mono";
+    position: relative;
+
+    
+}
+.result{
+    background-color:lightgray;
+    border: black;
+    width: 95%;
+    height:25%;
+
+}
+.element >.button01{
+    background-color: darkgreen;
+    color: white;
+    font-size: large;
+    width: 15%;
+    height: 20%;
+
+}
+.element >.buttonClrEql{
+    background-color: darkgreen;
+    color: white;
+    font-size: large;
+    width: 15%;
+    height: 20%;
+}
+
+.element > .buttonSumSubMulDiv{
+    background-color: black;
+    color: red;
+    font-size: large;
+    width: 15%;
+    height: 20%;  
+}
+.button01:hover{
+background-color: green;
+}
+.buttonClrEql:hover{
+    background-color: green;
+}
+.buttonSumSubMulDiv:hover{
+    background-color:darkgrey;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:10px 0 10px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:20px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer >.pragraph{
+  color:gray;
+  font-size:15px;
+  margin-top:5px;
+  letter-spacing:2px
+
+}
+
+
+
+
